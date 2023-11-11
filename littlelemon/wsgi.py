@@ -1,5 +1,5 @@
 """
-WSGI config for meta_backend_capstone project.
+WSGI config for littlelemon project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "meta_backend_capstone.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "littlelemon.settings")
 
 application = get_wsgi_application()
