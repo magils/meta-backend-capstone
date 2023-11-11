@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  capstone_db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: test100
+      MYSQL_USER: littlelemon
+      MYSQL_PASSWORD: littlelemon@123
+      MYSQL_DATABASE: LittleLemon
+    ports:
+      - 3307:3306
